@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wycliff Mutuma Murerwa | Portfolio</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #e0eafc, #cfdef3);
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(120deg, #34495e, #2c3e50);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      animation: fadeInDown 1.5s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      letter-spacing: 1px;
+      animation: glow 2s infinite alternate;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #dcdde1;
+    }
+
+    nav {
+      background-color: #2c3e50;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #1abc9c;
+      transform: scale(1.1);
+    }
+
+    section {
+      max-width: 900px;
+      margin: 50px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+      animation: slideUp 1s ease-in-out;
+    }
+
+    h2 {
+      color: #2c3e50;
+      border-bottom: 3px solid #3498db;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    ul {
+      line-height: 1.8;
+      list-style-type: square;
+      margin-left: 20px;
+    }
+
+    li:hover {
+      color: #2980b9;
+      transition: 0.3s;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    /* Buttons / Links */
+    .btn {
+      display: inline-block;
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #1abc9c;
+      transform: scale(1.05);
+    }
+
+    /* Animation Keyframes */
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #1abc9c, 0 0 20px #1abc9c; }
+      to { text-shadow: 0 0 20px #3498db, 0 0 30px #3498db; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Wycliff Mutuma Murerwa</h1>
+    <p>IT Professional | Cybersecurity Associate | Digital Transformation Specialist</p>
+  </header>
+
+  <nav>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="education">
+    <h2>Education Background</h2>
+    <ul>
+      <li><strong>Diploma in Information Technology</strong> – KCA University (Graduated: July 10, 2024)</li>
+      <li><strong>Bachelor’s Degree in Information Technology</strong> – KCA University (September 2025 – July 2027)</li>
+      <li><strong>Cisco Cybersecurity Associate</strong> – Professional Course (Completed: May 2024)</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <ul>
+      <li><strong>Judiciary of Kenya – Milimani Law Courts</strong><br>
+        Internship: Assisted in digital systems setup and IT support.</li>
+      <li><strong>Judiciary of Kenya – Thika Law Courts</strong><br>
+        Contract: Digitalization Officer (2 years) – Responsible for implementing and maintaining digital record systems.</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Key Skills</h2>
+    <ul>
+      <li>Network Administration</li>
+      <li>Cybersecurity & Data Protection</li>
+      <li>Web Design & Development</li>
+      <li>Database Management</li>
+      <li>IT Support & System Maintenance</li>
+    </ul>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Information</h2>
+    <p><strong>Email:</strong> wycliffmutuma25@gmail.com</p>
+    <p><strong>Phone:</strong> +254 769672099</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/wycliff-mutuma-46402b271/" class="btn">Visit Profile</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Wycliff Mutuma Murerwa | Designed by Wycliff</p>
+  </footer>
+
+</body>
+</html>
